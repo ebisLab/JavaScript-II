@@ -1,6 +1,27 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function annoyingThing(additionalThing){
+
+  let thingtwo = "It is Not animal, maybe? ";
+  function drSeussThings(grinchthing){
+
+console.log(thingtwo);
+console.log(grinchthing + thingtwo);
+thingtwo += additionalThing;
+  }
+
+return drSeussThings;
+}
+
+const catHat = annoyingThing("I don't Know ");
+const fishbowl = annoyingThing("Something different ")
+
+catHat("2 ");
+catHat("3 ");
+catHat("4 ");
+fishbowl(1);
+fishbowl(2);
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
